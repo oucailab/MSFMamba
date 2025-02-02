@@ -1,0 +1,23 @@
+Berlin:
+  hsi_channel_num: 244
+  slar_channel_num: 4
+  info:
+    - berlin_gt.mat
+    - berlin_hsi.mat
+    - berlin_index.mat
+    - berlin_sar.mat
+  keys:
+    - berlin_hsi
+    - berlin_sar
+    - berlin_gt
+    - berlin_train
+    - berlin_test
+    - berlin_all
+  image_h: 1723
+  image_w: 476
+  pca_num: 35
+  num_classes: 8
+  expand: 0.75
+  window_size: 11
+  d_state: 16
+  num_layer: 2
