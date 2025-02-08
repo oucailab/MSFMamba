@@ -61,8 +61,7 @@ python train.py --epoch 40 --lr 1e-4 --batchsize 128 --dataset Berlin
 
 ## 📬 **Contact**
 
-If you have any questions, feel free to reach out to us:  
-✉️ **Email:**  
+If you have any questions, feel free to contact us via Email:  
 📧 [gaofeng@ouc.edu.cn](mailto:gaofeng@ouc.edu.cn)  
 📧 [jinxuepeng@stu.ouc.edu.cn](mailto:jinxuepeng@stu.ouc.edu.cn)  
 
