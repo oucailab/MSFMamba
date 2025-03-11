@@ -15,9 +15,85 @@ Berlin:
     - berlin_all
   image_h: 1723
   image_w: 476
-  pca_num: 35
+  pca_num: 30
   num_classes: 8
   expand: 0.75
   window_size: 11
   d_state: 16
   num_layer: 2
+
+Houston2018:
+  hsi_channel_num: 50
+  slar_channel_num: 1
+  info: 
+    - houston_gt.mat
+    - houston_hsi.mat
+    - houston_index.mat
+    - houston_lidar.mat
+  keys:
+    - houston_hsi
+    - houston_lidar
+    - houston_gt
+    - houston_train
+    - houston_test
+    - houston_all
+  image_h: 1202
+  image_w: 4768
+  pca_num: 30
+  num_classes: 20
+  num_heads: 8
+  expand: 0.75
+  window_size: 11
+  d_state: 16
+  num_layer: 2
+
+Augsburg:
+  hsi_channel_num: 180
+  slar_channel_num: 4
+  info: 
+    - augsburg_gt.mat
+    - augsburg_hsi.mat
+    - augsburg_index.mat
+    - augsburg_sar.mat
+  keys:
+    - augsburg_hsi
+    - augsburg_sar
+    - augsburg_gt
+    - augsburg_train
+    - augsburg_test
+    - augsburg_all
+  image_h: 332
+  image_w: 485
+  pca_num: 30
+  num_classes: 7
+  embed_dim: 256
+  num_heads: 8
+  window_size: 11
+  d_state: 8
+  expand: 0.75
+  num_layer: 1
+
+Houston2013:
+  hsi_channel_num: 144
+  slar_channel_num: 1
+  info: 
+    - houston_gt.mat
+    - houston_hsi.mat
+    - houston_index.mat
+    - houston_lidar.mat
+  keys:
+    - houston_hsi
+    - houston_lidar
+    - houston_gt
+    - houston_train
+    - houston_test
+    - houston_all
+  image_h: 349
+  image_w: 1905
+  pca_num: 30
+  num_classes: 15
+  embed_dim: 256
+  window_size: 11
+  d_state: 16
+  num_layer: 1
+  expand: 0.75
