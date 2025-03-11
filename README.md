@@ -27,8 +27,7 @@ This repository contains the official implementation of our paper:
 ## 📂 **Dataset**  
 
 The dataset used in our experiments can be accessed from the following link:  
-📥 **[Download Dataset (Google Drive)](https://drive.google.com/file/d/1iZEIAVhlt2QJb_RECp0bHFVN7C8po8ag/view?usp=sharing)** 
-📥 **[Houston2013 Dataset (Google Drive)](https://drive.google.com/file/d/1doOfVidkms_o6dqzD9b_p7nufNZZ0MCr/view?usp=drive_link)** 
+📥 **[Download Dataset Berlin and Augsburg](https://github.com/zhu-xlab/augsburg_Multimodal_Data_Set_MDaS)** 
 
 ---
 
